@@ -1,0 +1,17 @@
+{
+  "name": "learning-cypress",
+  "version": "1.0.0",
+  "description": "Learning practice cypress",
+  "main": "index.js",
+  "scripts": {
+    "pruebas-edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser edge",
+    "pruebas-chrome": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser chrome",
+    "pruebas-firefox": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser firefox"
+    
+  },
+  "author": "Mariana Grillo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
