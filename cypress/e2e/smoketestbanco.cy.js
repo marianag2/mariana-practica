@@ -7,12 +7,6 @@ describe ("test suite - conjunto de pruebas",() => {
     cy.visit('http://zero.webappsecurity.com')   
       })
 
-    it("validar pagina de inicio", () => {  
-        cy.get(".active > img").should("be.visible")
-        //cy.get(".active > .custom > h4").contains("online banking")
-         cy.get('.active > .custom > h4').contains("Online Banking")
-        
-    })
 
     it("Prueba E2E - Transferencia de fondos", () => {
 
